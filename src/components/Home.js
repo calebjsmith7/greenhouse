@@ -48,8 +48,8 @@ class Home extends Component {
         
 
             <div className="c">
-                    <h3 className="mods">ORDER</h3>
-                    <a href="https://neuraldsp.com/cloud/u/DonnyCamp"><button className="designyours btn btn-light">CONTACT US</button></a>
+                    <h3 className="mods">Order</h3>
+                    <a href=""><button className="designyours btn btn-light">CONTACT US</button></a>
             </div>
            
 

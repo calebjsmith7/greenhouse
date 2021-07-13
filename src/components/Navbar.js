@@ -12,10 +12,13 @@ const Navbar = ({title}) =>{
             if (scroll > 100) {
               $(".navbar").css("background" , "#2b2b2bd0");
               $(".nbg").css("background" , "none");
+              
             }
             else{
                 $(".navbar").css("background" , "none");
-                $(".nbg").css("background" , "#2b2b2b5b");  	
+                $(".nbg").css("background" , "#2b2b2b5b"); 
+                
+              	
             }
         })
       })

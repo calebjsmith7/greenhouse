@@ -89,22 +89,24 @@
   position: absolute !important;
   left: 50%;
   transform: translateX(-50%);
-  top: 20px !important;
+  top: 0px !important;
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
-  background-image: url('./images/caleblogo-wht.png');
+  background-image: url(./images/Greenhouse-white.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 90px;
-  width: 155px;
+  /*height: 90px;
+  width: 155px;*/
+  height: 240px;
+  width: 305px;
   text-decoration: none;
-  margin-top: .75%;
+  margin-top: 0%;
 }
 .faketitle {
   text-decoration: none;
   color: transparent;
-  font-size: 40px;
+  font-size: 70px;
 }
 .title :hover {
   color: transparent;
@@ -112,14 +114,17 @@
 }
 @media (max-width: 800px) {
   .title {
-    width: 30vw;
-    height: 14vh;
+    width: 60vw;
+    height: 44vh;
     background-color: none;
     margin-top: 0;
     top: 13px !important;
   }
 }
 
+.navbar {
+  min-height: 23vh;
+}
   /* home page */
 
 
@@ -136,7 +141,8 @@
   
 }
 .a {
-  background-image: linear-gradient(to bottom right, navy, cyan);
+  background-image: url(./images/plantshop.jpg);
+  background-position-y: 58%;
 }
 @media (max-width: 800px){
   .a {
@@ -251,15 +257,19 @@ hr {
 }
 @media (max-width: 800px){
   .cards {
-    height: 220px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 34%;
   }
   .scrolling-wrapper {
     padding-left: 70%;
+    background-position-y: 0%;
   }
   
   .slide1 {
-    margin-left: -220%;
+    margin-left: -200%;
   }
   .slide1, .slide2, .slide3, .slide4, .slide5, .slide6 {
     margin-right: 5%;
@@ -277,7 +287,7 @@ hr {
 }
 
 .c {
-  background-image: url(./images/plantshop.jpg);
+  background-image: url(./images/plants1.jpg);
 }
 .d {
   background-image: url(./images/wide2.jpg);
@@ -292,7 +302,7 @@ hr {
 @media (max-width: 800px){
   .c {
     background-attachment: scroll;
-    background-image: url(./images/tall2.jpg);
+    background-image: url(./images/plants1.jpg);
   }
   .d {
     background-attachment: scroll;
@@ -339,7 +349,7 @@ hr {
   font-size: 7vh;
   padding-top: 10%;
   font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nothing You Could Do', sans-serif;
   font-style: italic;
 }
 .designyours {
@@ -349,7 +359,7 @@ hr {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-style: italic;
-  color: black;
+  color: #2b2b2b;
 }
 
 @media (max-width: 800px){
@@ -489,9 +499,11 @@ hr {
   height: 20vh;
 }
 .bottomlogo {
-  width: 10vw;
-  height: 9vh;
-  background-image: url(./images/WorshipPro-LOGO-BLACK.png);
+  /*width: 10vw;
+  height: 9vh;*/
+  width: 15vw;
+  height: 14vh;
+  background-image: url(./images/Greenhouse-logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -505,12 +517,14 @@ hr {
   margin-bottom: auto;
   font-size: 12px;
   font-weight: 800;
+  width: 20vw;
 }
 .bottomright {
   width: 75vw;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 50%;
+  padding-left: 45%;
+  padding-right: 4%;
 }
 .bottomlinks {
   display: flex;

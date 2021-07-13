@@ -13,7 +13,7 @@ class Lowermenu extends Component {
         <div className="lower">
           <div className="bottomlogo"></div>
           <div className="cw">
-            <h1 className="cw">© 2021 Green House. All Rights Reserved.</h1>
+            <h1 className="cw">© 2021 Green House Botanicals. All Rights Reserved.</h1>
           </div>
           <div className="bottomright">
             <ul className="bottomlinks">
