@@ -448,7 +448,7 @@ hr {
   height: 7vh;
 }
 .contactpage {
-  background-image: linear-gradient(to bottom right, navy, cyan);
+  background-image: linear-gradient(to bottom right, #70A0AF, #61E294);
   height: auto;
   padding-bottom: 3%;
 }

@@ -31,6 +31,19 @@ function handleCollapse() {
 }
 //HashLink used specifically for anchors vs. regular React Router Link
 
+// smooth scroll func instead of Link
+
+function scrollfunc(temp) {
+    document.getElementById(temp).scrollIntoView({ behavior: 'smooth' });
+    } 
+// wrapper function to get two functions
+
+function wrapperFunction(temp) {
+    handleCollapse();
+    scrollfunc(temp);
+    
+}
+
     return (
         <nav className="navbar navbar-dark navv fixed-top">
             
@@ -42,7 +55,8 @@ function handleCollapse() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto n nbg">
                 <li className="nav-item active"><HashLink to='/#top' className="nav-link l" onClick={handleCollapse}>HOME <span className="sr-only">(current)</span></HashLink></li>
-                <li className="nav-item active"><HashLink to='/about#top' className="nav-link l" onClick={handleCollapse}>ABOUT</HashLink></li>
+                <li className="nav-item active"><HashLink to='' className="nav-link l" onClick={() => wrapperFunction('about')}>ABOUT</HashLink></li>
+                <li className="nav-item active"><HashLink to='' className="nav-link l" onClick={() => wrapperFunction('gallery')}>GALLERY</HashLink></li>
                 <li className="nav-item active"><Link to='/contact' className="nav-link l" onClick={handleCollapse}>CONTACT</Link></li>
             </ul>
         </div>
