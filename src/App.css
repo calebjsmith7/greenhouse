@@ -441,7 +441,7 @@ hr {
   height: auto;
   width: 50vw;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 8%;
 }
 
 .contact {
@@ -485,6 +485,7 @@ hr {
     order: 1;
     padding-bottom: 5%;
     margin: auto;
+    padding-top: 20%;
   }
   .contact {
     padding-left: 2%;
