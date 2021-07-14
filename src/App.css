@@ -41,13 +41,17 @@
 
 @media (max-width: 800px){
   .nbg {
-    width: auto;
-    margin-right: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
+    width: 100vw;
+    margin-right: 4%;
+    padding-right: 15%;
+    padding-top: 5% !important;
+    margin-top: 30%;
   }
   .navbar-toggler {
     margin-right: 5%;
+    position: absolute;
+    top: 65px;
+    right: 15px;
   }
   .fa-bars {
     font-size: 4.5vh;
@@ -120,11 +124,15 @@
     margin-top: 0;
     top: 13px !important;
   }
+  
 }
 
 .navbar {
   min-height: 23vh;
 }
+
+
+
   /* home page */
 
 

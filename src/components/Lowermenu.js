@@ -5,9 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 
 
 class Lowermenu extends Component {
-    constructor(props){
-      super(props);
-    }
+    
     render() {
       return (
         <div className="lower">
@@ -20,7 +18,7 @@ class Lowermenu extends Component {
               <li><HashLink to='/#top' className="fix">Home</HashLink></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
-              <li><HashLink to='/about#top' className="fix">About</HashLink></li>
+              <li><HashLink to='/#about' className="fix">About</HashLink></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
               <li><HashLink to='/contact#top' className="fix">Contact</HashLink></li>

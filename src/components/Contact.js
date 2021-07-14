@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
-import { valHooks } from 'jquery';
 import * as emailjs from 'emailjs-com';
 
 class Contact extends Component {
@@ -20,7 +19,7 @@ class Contact extends Component {
 
     let templateParams = {
       from_name: email,
-      to_name: 'worshipproonline@gmail.com',
+      to_name: 'camilleannalisa.camp@gmail.com',
       subject: 'web inquiry',
       name: fname + " " + lname,
       email: email,
@@ -28,10 +27,10 @@ class Contact extends Component {
       explain: explain
     }
     emailjs.send(
-      'service_q86iq5r',
-      'template_h8e2cq2',
+      'service_zqjfu13',
+      'template_q84k5zf',
       templateParams,
-      'user_XCgmLJ5dWRoNYsk4cPVC5'
+      'user_fXWlPGkgpv9Unlu8Pplfp'
     );
     this.resetForm();
   }
