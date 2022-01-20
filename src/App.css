@@ -259,16 +259,63 @@ hr {
   width: 420px;
   margin: auto;
   margin-right: 1%;
-  margin-left: 3%;
+  margin-left: 17%;
   flex: 0 0 auto;
   background-color: transparent;
-  background-image: url(./images/testplant.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 .slide1 {
-  margin-left: 1%;
+  margin-left: 40%;
+  background-image: url(./images/testplant.png);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide2 {
+  background-image: url(./images/testplant1.png);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide3 {
+  background-image: url(./images/testplant2.png);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide4 {
+  background-image: url(./images/testplant3.png);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide5 {
+  background-image: url(./images/testplant4.png);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide6 {
+  background-image: url(./images/testplant5.png);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide7 {
+  background-image: url(./images/testplant6.png);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 40%;
 }
 @media (max-width: 800px){
   .cards {
@@ -660,7 +707,7 @@ hr {
 .sb1 {
   width: 50%;
   padding: 5%;
-  background-image: url(./images/donnypic.JPG);
+  background-image: url(./images/camillephoto.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 40%;
